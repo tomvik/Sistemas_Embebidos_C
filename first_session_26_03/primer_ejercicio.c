@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 int main(void) {
     printf("Size of unsigned char %lu\n", 8* sizeof(unsigned char));
-    printf("Size of char %lu\n\n", 8* sizeof(char));
+    printf("Size of char %lu\n\n", 8* sizeof(C));
 
     printf("Size of unsigned short %lu\n", 8* sizeof(unsigned short));
     printf("Size of signed short %lu\n\n", 8* sizeof(short));
